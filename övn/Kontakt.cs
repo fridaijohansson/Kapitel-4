@@ -45,5 +45,10 @@ namespace övn
             get { return _tele; }
             set { _tele = value; }
         }
+
+        public override string ToString()
+        {
+            return _förnamn + " " + _efternamn;
+        }
     }
 }
